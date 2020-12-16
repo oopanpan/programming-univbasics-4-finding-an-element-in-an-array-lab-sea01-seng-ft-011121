@@ -8,8 +8,8 @@ def find_element_index(array, value_to_find)
       return nil
     end
   }
-binding.pry
-puts "Hello"
+  binding.pry
+
 end
 
 
