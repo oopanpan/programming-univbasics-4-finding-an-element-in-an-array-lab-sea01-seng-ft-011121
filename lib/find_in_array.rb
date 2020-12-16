@@ -1,4 +1,3 @@
-#require 'pry'
 
 def find_element_index(array, value_to_find)
   final_value = nil
@@ -9,7 +8,3 @@ def find_element_index(array, value_to_find)
   }
   final_value
 end
-
-
-#sasha = [0,1,2,3,4,5,6,7]
-#find_element_index(sasha, 2)
