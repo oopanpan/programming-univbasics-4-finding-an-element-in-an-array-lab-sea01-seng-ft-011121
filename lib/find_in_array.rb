@@ -9,6 +9,7 @@ def find_element_index(array, value_to_find)
     end
   }
 binding.pry
+puts "Hello"
 end
 
 
