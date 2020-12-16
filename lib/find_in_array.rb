@@ -1,15 +1,13 @@
 #require 'pry'
 
 def find_element_index(array, value_to_find)
+  final_value = nil
   array.length.times {|i|
     if array[i] == value_to_find
-      return i
-    else
-      return nil
+      final_value = i
     end
   }
-  binding.pry
-
+  final_value
 end
 
 
